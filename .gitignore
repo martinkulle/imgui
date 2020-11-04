@@ -52,3 +52,7 @@ examples/example_sdl_opengl3/example_sdl_opengl3
 .vs/
 bin/
 bin-int/
+
+# Files
+*.user
+*.vcxproj

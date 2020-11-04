@@ -7,21 +7,21 @@ project "ImGui"
 
 	files
 	{
-		"imconfig.h"
-    "imgui.h"
-    "imgui.cpp"
-    "imgui_draw.cpp"
-    "imgui_internal.h"
-    "imgui_widgets.cpp"
-    "imgstb_rectpack.h"
-    "imgstb_textedit.h"
-    "imgstb_truetype.h"
-    "imgui_demo.cpp"
+		"imconfig.h",
+    "imgui.h",
+    "imgui.cpp",
+    "imgui_draw.cpp",
+    "imgui_internal.h",
+    "imgui_widgets.cpp",
+    "imgstb_rectpack.h",
+    "imgstb_textedit.h",
+    "imgstb_truetype.h",
+    "imgui_demo.cpp",
 	}
 
 	filter "system:windows"
 		systemversion "latest"
-    cppdialect "C+17"
+    cppdialect "C++17"
 		staticruntime "On"
 
 	filter {"system:windows", "configurations:Release"}
